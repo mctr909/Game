@@ -10,6 +10,12 @@
     <ClCompile Include="waveout.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="channel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="midi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circular_buffer.h">
@@ -25,6 +31,12 @@
       <Filter>Header</Filter>
     </ClInclude>
     <ClInclude Include="fft.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="channel.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="midi.h">
       <Filter>Header</Filter>
     </ClInclude>
   </ItemGroup>

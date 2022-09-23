@@ -146,13 +146,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="channel.cpp" />
     <ClCompile Include="circular_buffer.cpp" />
+    <ClCompile Include="midi.cpp" />
     <ClCompile Include="wavein.cpp" />
     <ClCompile Include="waveout.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circular_buffer.h" />
     <ClInclude Include="fft.h" />
+    <ClInclude Include="channel.h" />
+    <ClInclude Include="midi.h" />
     <ClInclude Include="Utils.h" />
     <ClInclude Include="wavein.h" />
     <ClInclude Include="waveout.h" />

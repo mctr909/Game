@@ -1,6 +1,7 @@
 #pragma once
 
 typedef double FloatType;
+typedef unsigned char byte;
 
 static inline FloatType Pi() {
     return static_cast<FloatType>(3.14159265358979323846);
